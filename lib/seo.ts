@@ -1,4 +1,4 @@
-export const SITE_URL = "https://goodfriendapp.io";
+export const SITE_URL = "https://goodfriend.online";
 export const SITE_NAME = "Good Friend";
 export const SITE_TITLE = "Good Friend: Never Forget a Catch Up";
 export const SITE_DESCRIPTION =
