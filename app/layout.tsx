@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { SITE_URL, SITE_NAME, SITE_TITLE, SITE_DESCRIPTION, SEO_KEYWORDS } from "@/lib/seo";
 import { APP_STORE_URL, SUPPORT_EMAIL } from "@/lib/data";
@@ -66,11 +67,6 @@ export const metadata: Metadata = {
     canonical: SITE_URL,
   },
 
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
-
   other: {
     "apple-itunes-app": `app-id=6758581803, app-argument=${APP_STORE_URL}`,
   },
@@ -111,7 +107,21 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-PQC9WZB2RK"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-PQC9WZB2RK');
+          `}
+        </Script>
+      </body>
     </html>
   );
 }
