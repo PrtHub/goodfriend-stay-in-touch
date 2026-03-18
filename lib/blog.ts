@@ -17,7 +17,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-01-15",
     readTime: "5 min read",
     category: "Relationships",
-    tags: ["stay in touch", "friendship tips", "busy lifestyle", "relationships", "personal connection"],
+    tags: ["stay in touch", "friendship tips", "busy lifestyle", "relationships", "personal connection", "how to stay connected", "meaningful friendship", "long distance friends"],
     content: `
 <p>You opened their contact, typed out half a message, and then got pulled away by a meeting notification. Three weeks later, the draft is still sitting there. Sound familiar?</p>
 
@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-01-22",
     readTime: "6 min read",
     category: "Social Wellness",
-    tags: ["adult friendships", "losing friends", "social wellness", "relationship maintenance", "friendship science"],
+    tags: ["adult friendships", "losing friends", "social wellness", "relationship maintenance", "friendship science", "loneliness in 30s", "mental health connection"],
     content: `
 <p>Sociologists at Aalto University and Oxford tracked the social networks of thousands of people over several years. Their finding: most of us reach peak friendship around age 25, then our networks contract sharply. By 30, the average person has lost touch with most of the close friends they had in their early twenties.</p>
 
@@ -105,7 +105,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-02-01",
     readTime: "7 min read",
     category: "App Reviews",
-    tags: ["best friendship apps", "iOS apps 2025", "friend tracker app", "relationship apps", "contact reminder app"],
+    tags: ["best friendship apps", "iOS apps 2025", "friend tracker app", "relationship apps", "contact reminder app", "personal CRM for friends", "private relationship app"],
     content: `
 <p>There are roughly three types of people when it comes to staying in touch with friends. Those who somehow do it effortlessly, those who mean to but forget, and those who have genuinely tried apps to help and found most of them either too complex or too invasive.</p>
 
@@ -150,7 +150,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-02-08",
     readTime: "5 min read",
     category: "Productivity",
-    tags: ["personal CRM", "friendship management", "relationship tracking", "productivity", "intentional living"],
+    tags: ["personal CRM", "friendship management", "relationship tracking", "productivity", "intentional living", "social productivity", "relationship systems"],
     content: `
 <p>The phrase "personal CRM" sounds clinical when applied to friendships. Like you are reducing your best friend to a sales prospect with a follow-up date. But the idea behind it — deliberately tracking the context and cadence of your relationships — is actually one of the most human things you can do.</p>
 
@@ -191,7 +191,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-02-14",
     readTime: "6 min read",
     category: "Relationships",
-    tags: ["long distance friendships", "stay connected friends", "friendship tips", "remote friendships", "maintain friendships"],
+    tags: ["long distance friendships", "stay connected friends", "friendship tips", "remote friendships", "maintain friendships", "miles apart still close", "connection rituals"],
     content: `
 <p>There is a particular kind of sadness that comes with realizing a friendship has quietly slipped away. Not because of a fight or a falling out, but simply because distance made consistency hard and consistency is what keeps friendships alive.</p>
 
@@ -231,7 +231,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-02-19",
     readTime: "5 min read",
     category: "Social Wellness",
-    tags: ["digital minimalism", "social wellness", "anti social media", "intentional living", "mental health"],
+    tags: ["digital minimalism", "social wellness", "anti social media", "intentional living", "mental health", "screen time detox", "reclaiming attention", "digital wellbeing"],
     content: `
 <p>In 2024, the average person spent over six hours per day on screens. A significant chunk of that was social media — scrolling through content from people they barely know, while their closest friends went weeks without a real conversation.</p>
 
@@ -273,7 +273,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-02-24",
     readTime: "4 min read",
     category: "Relationships",
-    tags: ["birthday reminder", "never miss birthday", "important dates", "friendship", "relationship tips"],
+    tags: ["birthday reminder", "never miss birthday", "important dates", "friendship", "relationship tips", "birthday reminder app iOS", "milestone tracker"],
     content: `
 <p>A birthday message sent at 11:45pm is better than none. But a birthday message sent in the morning, referencing something personal — "hope your first birthday in the new city is a good one" — is a different thing entirely. One is a checkbox. The other is a gesture of genuine attention.</p>
 
@@ -313,7 +313,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-01",
     readTime: "5 min read",
     category: "Social Wellness",
-    tags: ["introvert", "introverts and friendship", "social anxiety", "staying connected", "social wellness"],
+    tags: ["introvert", "introverts and friendship", "social anxiety", "staying connected", "social wellness", "social battery", "introvert life hacks"],
     content: `
 <p>For introverts, the advice to "just reach out more" misses the point entirely. The issue is never caring. The issue is that social interaction costs energy, and when your reserves are low, reaching out feels like lifting something heavier than it should.</p>
 
@@ -353,7 +353,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-05",
     readTime: "5 min read",
     category: "Privacy",
-    tags: ["privacy", "data privacy", "relationship apps", "local storage app", "no cloud app", "private iOS app"],
+    tags: ["privacy", "data privacy", "relationship apps", "local storage app", "no cloud app", "private iOS app", "secure friendship data", "zero tracking app"],
     content: `
 <p>When we think about sensitive personal data, we tend to think about financial information, medical records, passwords. What we rarely think about — but probably should — is our relationship data.</p>
 
@@ -395,7 +395,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-10",
     readTime: "4 min read",
     category: "Productivity",
-    tags: ["habits", "staying in touch habits", "friendship habits", "consistency", "productivity", "relationship habits"],
+    tags: ["habits", "staying in touch habits", "friendship habits", "consistency", "productivity", "relationship habits", "daily social rituals"],
     content: `
 <p>Most friendship advice focuses on grand gestures — the surprise visit, the long overdue phone call, the heartfelt letter. These are wonderful, but they are events, not systems. What actually keeps friendships alive over decades is not the grand gesture, but the small, repeated act.</p>
 
@@ -438,7 +438,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-12",
     readTime: "5 min read",
     category: "Relationships",
-    tags: ["reconnect with old friends", "rekindle friendship", "reach out after years", "old friends", "friendship tips"],
+    tags: ["reconnect with old friends", "rekindle friendship", "reach out after years", "old friends", "friendship tips", "how to apologize to friend", "icebreaker for friends"],
     content: `
 <p>There is a friend you have not spoken to in three years. Maybe four. You think about them occasionally — something reminds you of them, or you see a mutual friend post something — and you feel a pull to reach out. Then the thought arrives: it has been too long. It would be weird now.</p>
 
@@ -478,7 +478,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-15",
     readTime: "6 min read",
     category: "Social Wellness",
-    tags: ["friendship mental health", "social wellness", "loneliness science", "connection health", "mental wellbeing"],
+    tags: ["friendship mental health", "social wellness", "loneliness science", "connection health", "mental wellbeing", "loneliness epidemic 2025", "biology of connection"],
     content: `
 <p>The longest-running study on human happiness — Harvard's Study of Adult Development, now spanning more than 85 years — reached a conclusion that surprised many researchers: the quality of our relationships is the single strongest predictor of wellbeing in later life. Not wealth, not fame, not professional achievement. Relationships.</p>
 
@@ -519,7 +519,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-18",
     readTime: "5 min read",
     category: "Relationships",
-    tags: ["what makes a good friend", "friendship qualities", "being a good friend", "friendship advice", "relationships"],
+    tags: ["what makes a good friend", "friendship qualities", "being a good friend", "friendship advice", "relationships", "characteristics of close friends"],
     content: `
 <p>Ask most people what makes a good friend and they will say things like loyalty, honesty, being there in a crisis. These are not wrong. But they are also not the whole picture — and some of the most important qualities of a good friend are things we rarely mention.</p>
 
@@ -560,7 +560,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-21",
     readTime: "6 min read",
     category: "Relationships",
-    tags: ["how to make friends as adult", "adult friendships", "making new friends", "social skills adults", "friendship advice"],
+    tags: ["how to make friends as adult", "adult friendships", "making new friends", "social skills adults", "friendship advice", "finding friends over 25"],
     content: `
 <p>At school, friendships happened almost automatically — proximity, shared circumstance, and time did most of the work. As an adult, none of those conditions exist in the same way. Making a new friend requires deliberate effort, repeated contact, and a tolerance for the mild awkwardness of early-stage connection.</p>
 
@@ -597,7 +597,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-25",
     readTime: "5 min read",
     category: "Social Wellness",
-    tags: ["quality friendships", "how many friends", "inner circle", "friendship science", "social network size", "Dunbar number"],
+    tags: ["quality friendships", "how many friends", "inner circle", "friendship science", "social network size", "Dunbar number", "small social circle benefits"],
     content: `
 <p>Robin Dunbar, the British anthropologist, proposed that humans can maintain stable social relationships with roughly 150 people. But within that number, there are layers: an innermost circle of about 5, a close circle of about 15, and a wider circle of about 50. Each layer requires a different level of investment.</p>
 
@@ -634,7 +634,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-03-28",
     readTime: "5 min read",
     category: "Relationships",
-    tags: ["presence", "mindful friendships", "being present", "deep friendships", "connection", "active listening"],
+    tags: ["presence", "mindful friendships", "being present", "deep friendships", "connection", "active listening", "how to be a better listener"],
     content: `
 <p>You are on a call with a close friend. You are also checking email. Half your attention is on the conversation, half is elsewhere. When you hang up, you realize you retained almost nothing and contributed even less. The call happened. The connection did not.</p>
 
@@ -671,7 +671,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-04-01",
     readTime: "5 min read",
     category: "Social Wellness",
-    tags: ["social battery", "social energy", "introvert extrovert", "friendship burnout", "social wellness", "energy management"],
+    tags: ["social battery", "social energy", "introvert extrovert", "friendship burnout", "social wellness", "energy management", "low social battery tips"],
     content: `
 <p>The concept of a "social battery" — the idea that social interaction consumes a finite resource that needs replenishing — has moved from pop psychology into genuine scientific territory. For some people, social interaction is energizing. For others, it is draining, regardless of how much they enjoy it. Neither is a flaw. Both require management.</p>
 
@@ -717,7 +717,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-04-05",
     readTime: "6 min read",
     category: "Relationships",
-    tags: ["friendship after kids", "parenting and friendship", "busy parents social life", "maintain friendships parenthood", "adult friendships"],
+    tags: ["friendship after kids", "parenting and friendship", "busy parents social life", "maintain friendships parenthood", "adult friendships", "new parent isolation"],
     content: `
 <p>Before children, staying in touch with friends required effort but not strategy. After children, it requires both. The math of available time changes completely — and without an intentional approach, friendships that survived everything else quietly fade in the first few years of parenthood.</p>
 
@@ -758,7 +758,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-04-08",
     readTime: "5 min read",
     category: "Relationships",
-    tags: ["one sided friendship", "unbalanced friendship", "friendship advice", "toxic friendships", "relationship boundaries"],
+    tags: ["one sided friendship", "unbalanced friendship", "friendship advice", "toxic friendships", "relationship boundaries", "lopsided relationships"],
     content: `
 <p>You send the first message every time. You remember their birthday. You ask about their life. They respond warmly when you do, but you cannot remember the last time they initiated. The friendship is real, and yet it runs almost entirely on your energy.</p>
 
@@ -796,7 +796,7 @@ export const blogPosts: BlogPost[] = [
     date: "2025-04-12",
     readTime: "5 min read",
     category: "Social Wellness",
-    tags: ["remote work friendships", "work from home social life", "adult loneliness", "remote work isolation", "digital age friendships"],
+    tags: ["remote work friendships", "work from home social life", "adult loneliness", "remote work isolation", "digital age friendships", "remotely connected"],
     content: `
 <p>The office was never primarily a place to work. It was a place to be around people. The watercooler conversation, the lunch invitation, the casual desk-side chat — these were not inefficiencies. They were the low-friction social interactions that kept adult loneliness at bay for millions of people who had no other consistent source of daily human contact.</p>
 

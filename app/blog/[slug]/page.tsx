@@ -54,8 +54,68 @@ export default async function BlogPostPage({ params }: Props) {
     day: "numeric",
   });
 
+  const articleJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.description,
+    "image": `${SITE_URL}/opengraph-image`,
+    "datePublished": post.date,
+    "author": {
+      "@type": "Person",
+      "name": "Pritam Ghosh",
+      "url": "https://x.com/iPritamX",
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Good Friend",
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${SITE_URL}/icon.png`,
+      },
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/blog/${slug}`,
+    },
+    "keywords": post.tags.join(", "),
+  };
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": SITE_URL,
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": `${SITE_URL}/blog`,
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": post.title,
+        "item": `${SITE_URL}/blog/${slug}`,
+      },
+    ],
+  };
+
   return (
     <div style={{ backgroundColor: "#FDFAF4", color: "#1C2D0E" }}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <Navbar />
 
       <main className="pt-24">

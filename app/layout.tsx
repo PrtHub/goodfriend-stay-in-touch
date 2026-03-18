@@ -74,24 +74,66 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: SITE_NAME,
-  operatingSystem: "iOS",
-  applicationCategory: "LifestyleApplication",
-  applicationSubCategory: "Social Networking",
-  description: SITE_DESCRIPTION,
-  url: SITE_URL,
-  downloadUrl: APP_STORE_URL,
-  screenshot: [`${SITE_URL}/01.png`, `${SITE_URL}/02.png`, `${SITE_URL}/03.png`],
-  offers: [
-    { "@type": "Offer", name: "Monthly", price: "5.99", priceCurrency: "USD", description: "Monthly subscription with 3-day free trial" },
-    { "@type": "Offer", name: "Annual", price: "19.99", priceCurrency: "USD", description: "Annual subscription with 7-day free trial" },
-    { "@type": "Offer", name: "Lifetime", price: "59.99", priceCurrency: "USD", description: "One-time lifetime purchase" },
-  ],
-  author: { "@type": "Person", name: "Pritam Ghosh", email: SUPPORT_EMAIL },
-  aggregateRating: { "@type": "AggregateRating", ratingValue: "5", ratingCount: "11" },
-  featureList: ["Private local storage", "No account required", "Birthday reminders", "Conversation notes", "Customizable nudges", "Friend circle priorities"],
-  softwareVersion: "1.0",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "@id": `${SITE_URL}/#software`,
+      "name": SITE_NAME,
+      "operatingSystem": "iOS",
+      "applicationCategory": "LifestyleApplication",
+      "applicationSubCategory": "Social Networking, Personal CRM",
+      "description": SITE_DESCRIPTION,
+      "url": SITE_URL,
+      "downloadUrl": APP_STORE_URL,
+      "softwareVersion": "1.0",
+      "inLanguage": "en",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "5.99",
+        "highPrice": "59.99",
+        "priceCurrency": "USD",
+        "offerCount": "3",
+        "offers": [
+          { "@type": "Offer", "name": "Monthly Subscription", "price": "5.99", "priceCurrency": "USD", "description": "Includes 3-day free trial" },
+          { "@type": "Offer", "name": "Annual Subscription", "price": "19.99", "priceCurrency": "USD", "description": "Includes 7-day free trial" },
+          { "@type": "Offer", "name": "Lifetime Access", "price": "59.99", "priceCurrency": "USD", "description": "One-time purchase" }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "11",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "featureList": [
+        "Private local storage with SQLite",
+        "Zero-guilt nudge reminders",
+        "Inner circle prioritization",
+        "Post-call context notes",
+        "Birthday and milestone tracking",
+        "No account or cloud sync required"
+      ],
+      "screenshot": [
+        { "@type": "ImageObject", "url": `${SITE_URL}/01.png` },
+        { "@type": "ImageObject", "url": `${SITE_URL}/02.png` },
+        { "@type": "ImageObject", "url": `${SITE_URL}/03.png` }
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Pritam Ghosh",
+        "url": "https://x.com/iPritamX"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      "url": SITE_URL,
+      "name": SITE_NAME,
+      "description": SITE_DESCRIPTION,
+      "publisher": { "@id": `${SITE_URL}/#software` }
+    }
+  ]
 };
 
 export default function RootLayout({
