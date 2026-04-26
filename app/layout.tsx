@@ -37,7 +37,7 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "Good Friend — Never Forget a Catch Up. Private iOS app for staying connected.",
+        alt: "Kindred — The Private Circle. Private iOS app for staying connected.",
       },
     ],
   },

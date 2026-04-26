@@ -12,7 +12,7 @@ export default function ForWho() {
             Built for people who care
           </h2>
           <p className="mt-4 text-base leading-relaxed" style={{ color: "#6B7A50" }}>
-            Whether you&apos;re across the room or across the world, Good Friend helps you stay close.
+            Whether you&apos;re across the room or across the world, Kindred helps you stay close.
           </p>
         </div>
 

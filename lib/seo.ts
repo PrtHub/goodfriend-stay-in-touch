@@ -1,6 +1,6 @@
 export const SITE_URL = "https://goodfriend.online";
-export const SITE_NAME = "Good Friend";
-export const SITE_TITLE = "Good Friend: Never Forget a Catch Up";
+export const SITE_NAME = "Kindred";
+export const SITE_TITLE = "Kindred: The Private Circle";
 export const SITE_DESCRIPTION =
   "The private iOS app that helps you stay connected with the people who matter. Gentle reminders, local storage, zero tracking. Try free for 7 days.";
 

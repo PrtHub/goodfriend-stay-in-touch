@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>The most underrated solution to staying in touch is structure. Not motivation, not willpower — structure. A system that surfaces who needs your attention, when, and removes the friction from reaching out.</p>
 
-<p>Apps like <strong>Good Friend</strong> are built for exactly this: not to replace the warmth of human connection, but to make sure it actually happens. Set a contact frequency for each friend, get gentle reminders when it is time to reach out, and jot a quick note after each catch up so you always know where you left off.</p>
+<p>Apps like <strong>Kindred</strong> are built for exactly this: not to replace the warmth of human connection, but to make sure it actually happens. Set a contact frequency for each friend, get gentle reminders when it is time to reach out, and jot a quick note after each catch up so you always know where you left off.</p>
 
 <p>Staying in touch is not about doing more. It is about doing it consistently, with the people who matter most.</p>
     `,
@@ -95,7 +95,7 @@ export const blogPosts: BlogPost[] = [
 
 <p><strong>Make the first move, always.</strong> The friend who reaches out first sets the tone. In adult friendships, the person willing to initiate is the person who keeps the friendship alive.</p>
 
-<p>Apps like <strong>Good Friend</strong> exist precisely because good intentions are not enough. A private, local tool that reminds you when it is time to reach out — without the noise of social media — is one of the simplest ways to fight the 80% statistic, one catch up at a time.</p>
+<p>Apps like <strong>Kindred</strong> exist precisely because good intentions are not enough. A private, local tool that reminds you when it is time to reach out — without the noise of social media — is one of the simplest ways to fight the 80% statistic, one catch up at a time.</p>
     `,
   },
   {
@@ -132,15 +132,15 @@ export const blogPosts: BlogPost[] = [
 <h3>Dedicated personal relationship managers</h3>
 <p>This is the most interesting category. Apps purpose-built for maintaining personal (not professional) relationships. They tend to be quieter, more intentional, and more private.</p>
 
-<h2>What Makes Good Friend Different</h2>
+<h2>What Makes Kindred Different</h2>
 
-<p>Most apps in this space either store your data in the cloud (raising privacy questions) or require an account (adding friction). <strong>Good Friend</strong> takes a different approach: everything is stored locally on your device using SQLite. No accounts, no servers, no data leaving your phone.</p>
+<p>Most apps in this space either store your data in the cloud (raising privacy questions) or require an account (adding friction). <strong>Kindred</strong> takes a different approach: everything is stored locally on your device using SQLite. No accounts, no servers, no data leaving your phone.</p>
 
 <p>The core loop is deliberately simple: set a contact frequency for each friend, get a gentle reminder when it is time to reach out, log the catch up with a quick note, repeat. The Today tab shows exactly who needs your attention — no more wondering who you have been neglecting.</p>
 
 <p>It is the kind of app that feels invisible until you realize you have called your best friend twice this month instead of twice this year.</p>
 
-<p>If privacy and simplicity are your priorities, Good Friend is worth a try. The annual plan comes with a 7-day free trial — no commitment needed.</p>
+<p>If privacy and simplicity are your priorities, Kindred is worth a try. The annual plan comes with a 7-day free trial — no commitment needed.</p>
     `,
   },
   {
@@ -181,7 +181,7 @@ export const blogPosts: BlogPost[] = [
 <li>Any important dates (birthdays, anniversaries, milestones)</li>
 </ul>
 
-<p><strong>Good Friend</strong> is built around exactly these four elements, with a Today tab that surfaces who needs attention and a post-call note workflow that makes capturing context take seconds, not minutes. It is a personal CRM stripped of everything that makes the concept feel cold — and left with only what makes friendships warmer.</p>
+<p><strong>Kindred</strong> is built around exactly these four elements, with a Today tab that surfaces who needs attention and a post-call note workflow that makes capturing context take seconds, not minutes. It is a personal CRM stripped of everything that makes the concept feel cold — and left with only what makes friendships warmer.</p>
     `,
   },
   {
@@ -221,7 +221,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Long-distance friendships that last decades share a common trait: both people accepted that the friendship would look different than a local one, and they built rituals around that reality rather than mourning what it was not.</p>
 
-<p>Tools like <strong>Good Friend</strong> help by keeping track of contact frequency, important dates, and conversation notes — all locally on your device, with no accounts required. It is a quiet infrastructure for the friendships that geography makes harder but that still matter enormously.</p>
+<p>Tools like <strong>Kindred</strong> help by keeping track of contact frequency, important dates, and conversation notes — all locally on your device, with no accounts required. It is a quiet infrastructure for the friendships that geography makes harder but that still matter enormously.</p>
     `,
   },
   {
@@ -263,7 +263,7 @@ export const blogPosts: BlogPost[] = [
 <li><strong>Capture context</strong> — notes from conversations, important dates, things that matter to this person</li>
 </ol>
 
-<p>This is the exact philosophy behind <strong>Good Friend</strong> — an app with no feed, no likes, no algorithm. Just your inner circle, a gentle nudge when it is time to reach out, and a private record of your conversations. Social wellness through intentional simplicity.</p>
+<p>This is the exact philosophy behind <strong>Kindred</strong> — an app with no feed, no likes, no algorithm. Just your inner circle, a gentle nudge when it is time to reach out, and a private record of your conversations. Social wellness through intentional simplicity.</p>
     `,
   },
   {
@@ -301,7 +301,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The Simple Fix</h2>
 
-<p><strong>Good Friend</strong> includes date tracking as a core feature — birthdays, anniversaries, and any custom milestones. Add a note with context and get a reminder before the date arrives. It is one of those features that sounds small until the moment it saves a friendship.</p>
+<p><strong>Kindred</strong> includes date tracking as a core feature — birthdays, anniversaries, and any custom milestones. Add a note with context and get a reminder before the date arrives. It is one of those features that sounds small until the moment it saves a friendship.</p>
 
 <p>You already care about the people in your life. A system that helps you show it on the right days is not a crutch. It is just good infrastructure.</p>
     `,
@@ -343,7 +343,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Friendship does not have one format. For introverts, a thriving social life might look quieter, more considered, and less spontaneous than the extrovert default — and that is completely valid.</p>
 
-<p><strong>Good Friend</strong> is built with this in mind. Gentle, customizable reminders that respect your bandwidth, a simple log to capture what matters, and no social feed demanding your attention. It is a tool for connection on your terms.</p>
+<p><strong>Kindred</strong> is built with this in mind. Gentle, customizable reminders that respect your bandwidth, a simple log to capture what matters, and no social feed demanding your attention. It is a tool for connection on your terms.</p>
     `,
   },
   {
@@ -383,7 +383,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>The gold standard for relationship app privacy is straightforward: no cloud, no accounts, no server-side storage. Your data lives on your device. If you delete the app, the data is gone. Nobody else can access it, sell it, or lose it in a breach.</p>
 
-<p>This is exactly how <strong>Good Friend</strong> works. SQLite local storage, zero accounts, zero cloud sync. Your closest friendships are yours alone — not a product feature. It is a design decision that costs something in terms of cross-device sync convenience, but gains everything in terms of trust.</p>
+<p>This is exactly how <strong>Kindred</strong> works. SQLite local storage, zero accounts, zero cloud sync. Your closest friendships are yours alone — not a product feature. It is a design decision that costs something in terms of cross-device sync convenience, but gains everything in terms of trust.</p>
 
 <p>Your relationship data deserves the same protection as your financial data. Choosing tools that reflect that belief is one of the quietest but most important decisions you can make.</p>
     `,
@@ -426,7 +426,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The System Behind the Habits</h2>
 
-<p>These habits are easy to describe and easy to forget without a structure supporting them. <strong>Good Friend</strong> is built to be that structure — a Today tab that prompts you when it is time to reach out, a note-taking flow that captures context in seconds, and a gentle reminder system that replaces guilt with action.</p>
+<p>These habits are easy to describe and easy to forget without a structure supporting them. <strong>Kindred</strong> is built to be that structure — a Today tab that prompts you when it is time to reach out, a note-taking flow that captures context in seconds, and a gentle reminder system that replaces guilt with action.</p>
 
 <p>Small habits, consistently executed, are how the best friendships are built. Start with one.</p>
     `,
@@ -468,7 +468,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>What matters is taking the first step. The rest is just conversation.</p>
 
-<p>If you want a system that helps you track which old friends you have been meaning to reach out to, <strong>Good Friend</strong> lets you add anyone to your circle with a custom contact goal — even if the goal is simply "reconnect once and see how it goes."</p>
+<p>If you want a system that helps you track which old friends you have been meaning to reach out to, <strong>Kindred</strong> lets you add anyone to your circle with a custom contact goal — even if the goal is simply "reconnect once and see how it goes."</p>
     `,
   },
   {
@@ -509,7 +509,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Taking your close friendships seriously is not a lifestyle choice — it is a health decision. Setting aside time to reach out, remembering what matters to the people you care about, showing up for them consistently: these are acts of wellbeing maintenance, not just social nicety.</p>
 
-<p><strong>Good Friend</strong> exists in the space between intention and action. The science is clear on what matters. The app is simply a tool to make sure it actually happens.</p>
+<p><strong>Kindred</strong> exists in the space between intention and action. The science is clear on what matters. The app is simply a tool to make sure it actually happens.</p>
     `,
   },
   {
@@ -550,7 +550,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>This is harder than it sounds. It requires a kind of generosity that does not always feel reciprocated in the short run. But over time, the people who initiate are the people whose social lives remain rich as the years pass.</p>
 
-<p>If you want to be more consistent at the small things that make someone a good friend, <strong>Good Friend</strong> is built for exactly that — a simple system to help you show up, remember what matters, and never let the people who matter drift too far.</p>
+<p>If you want to be more consistent at the small things that make someone a good friend, <strong>Kindred</strong> is built for exactly that — a simple system to help you show up, remember what matters, and never let the people who matter drift too far.</p>
     `,
   },
   {
@@ -587,7 +587,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>The hardest part of adult friendship formation is not making the initial connection — it is maintaining it through the early fragility of a new relationship. New friendships are easy to lose through simple neglect.</p>
 
-<p>This is where a tool like <strong>Good Friend</strong> is especially useful for new connections. Set a contact frequency, get a gentle reminder to follow up, jot a note after each conversation. For a new friendship that has not yet built its own momentum, that structure can be the difference between something that develops and something that quietly fades.</p>
+<p>This is where a tool like <strong>Kindred</strong> is especially useful for new connections. Set a contact frequency, get a gentle reminder to follow up, jot a note after each conversation. For a new friendship that has not yet built its own momentum, that structure can be the difference between something that develops and something that quietly fades.</p>
     `,
   },
   {
@@ -624,7 +624,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Then ask honestly: am I investing in these relationships at the level they deserve?</p>
 
-<p>For most people, the answer reveals a gap between intention and action. <strong>Good Friend</strong> is designed to close that gap — helping you prioritize the people who matter most and maintain consistent contact with them, without needing more time or willpower than you already have.</p>
+<p>For most people, the answer reveals a gap between intention and action. <strong>Kindred</strong> is designed to close that gap — helping you prioritize the people who matter most and maintain consistent contact with them, without needing more time or willpower than you already have.</p>
     `,
   },
   {
@@ -661,7 +661,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>Memory is fallible. No matter how present you are in a conversation, details fade. The practical solution is to write down what matters right after a catch up — not a transcript, just a sentence or two. "Worried about her mum's health. Excited about the new project." This makes presence sustainable across weeks and months, not just in the moment.</p>
 
-<p><strong>Good Friend</strong> builds this into its workflow. A quick note after each conversation means that the next time you speak, you are not starting from scratch. You are continuing a story you have been paying attention to all along.</p>
+<p><strong>Kindred</strong> builds this into its workflow. A quick note after each conversation means that the next time you speak, you are not starting from scratch. You are continuing a story you have been paying attention to all along.</p>
     `,
   },
   {
@@ -707,7 +707,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>When your social battery is low, the friction of figuring out who to reach out to and when can feel enormous. A system that removes that friction — that simply tells you "it is time to check in with this person" — means the decision is already made. You just have to act.</p>
 
-<p><strong>Good Friend</strong> handles that overhead quietly, so that even on low-energy days, maintaining your most important friendships does not feel like a project.</p>
+<p><strong>Kindred</strong> handles that overhead quietly, so that even on low-energy days, maintaining your most important friendships does not feel like a project.</p>
     `,
   },
   {
@@ -748,7 +748,7 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The Long View</h2>
 
-<p>Parents who emerge from the early years with their closest friendships intact are almost always the ones who treated those friendships as something requiring active maintenance — not passive hoping. <strong>Good Friend</strong> is particularly useful in this season: a simple reminder when it is time to reach out, and a quick note to capture context, so that even with limited bandwidth, the people who matter most do not fall through the cracks.</p>
+<p>Parents who emerge from the early years with their closest friendships intact are almost always the ones who treated those friendships as something requiring active maintenance — not passive hoping. <strong>Kindred</strong> is particularly useful in this season: a simple reminder when it is time to reach out, and a quick note to capture context, so that even with limited bandwidth, the people who matter most do not fall through the cracks.</p>
     `,
   },
   {
@@ -786,7 +786,7 @@ export const blogPosts: BlogPost[] = [
 
 <p>For friendships that are genuinely imbalanced in care: reducing your investment is not an act of cruelty. It is an act of self-respect. You cannot manufacture reciprocity. You can only decide how much of your limited social energy to spend where it is not returned.</p>
 
-<p>Your closest friendships should feel like a two-way current. <strong>Good Friend</strong> can help you see the patterns clearly — who you have been reaching out to, how often, and whether the energy is going somewhere it is valued.</p>
+<p>Your closest friendships should feel like a two-way current. <strong>Kindred</strong> can help you see the patterns clearly — who you have been reaching out to, how often, and whether the energy is going somewhere it is valued.</p>
     `,
   },
   {
@@ -823,7 +823,7 @@ export const blogPosts: BlogPost[] = [
 <p>Without the ambient social contact of office life, the close friendships you already have become more important — and more in need of active maintenance. They will not maintain themselves through osmosis anymore. They need deliberate attention.</p>
 
 <h3>A system for staying in touch</h3>
-<p>For remote workers especially, the frictionless maintenance of close friendships is not a nice-to-have. It is a mental health essential. <strong>Good Friend</strong> was built with this reality in mind — a private, quiet tool that helps you stay connected with the people who matter, without the noise and distraction of social platforms that were never designed for genuine connection.</p>
+<p>For remote workers especially, the frictionless maintenance of close friendships is not a nice-to-have. It is a mental health essential. <strong>Kindred</strong> was built with this reality in mind — a private, quiet tool that helps you stay connected with the people who matter, without the noise and distraction of social platforms that were never designed for genuine connection.</p>
     `,
   },
 ];

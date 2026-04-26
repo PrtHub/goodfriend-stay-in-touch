@@ -68,7 +68,7 @@ export default async function BlogPostPage({ params }: Props) {
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Good Friend",
+      "name": "Kindred",
       "logo": {
         "@type": "ImageObject",
         "url": `${SITE_URL}/icon.png`,
@@ -180,7 +180,7 @@ export default async function BlogPostPage({ params }: Props) {
         >
           <div className="mx-auto max-w-3xl px-6 text-center">
             <p className="mb-3 text-xs font-bold uppercase tracking-widest" style={{ color: "rgba(197,214,156,0.6)" }}>
-              Good Friend for iOS
+              Kindred for iOS
             </p>
             <h2 className="text-2xl font-extrabold text-white sm:text-3xl">
               Ready to stop losing touch?

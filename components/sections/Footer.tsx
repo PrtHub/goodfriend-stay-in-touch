@@ -15,7 +15,7 @@ export default function Footer() {
               >
                 <Heart className="h-4 w-4" style={{ color: "#C5D69C" }} fill="#C5D69C" />
               </div>
-              <span className="text-[15px] font-bold text-white">Good Friend</span>
+              <span className="text-[15px] font-bold text-white">Kindred</span>
             </div>
             <p className="mt-3 max-w-xs text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.4)" }}>
               The anti-social network. An intentional, private-by-default app to help you nurture your inner circle.
@@ -84,7 +84,7 @@ export default function Footer() {
             color: "rgba(255,255,255,0.25)",
           }}
         >
-          <p>&copy; {new Date().getFullYear()} Good Friend. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kindred. All rights reserved.</p>
           <p>Made with care · 100% Private · iOS only</p>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Highlights() {
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center">
           <p className="mb-2 text-xs font-bold uppercase tracking-widest" style={{ color: "#8A9E6C" }}>
-            Why Good Friend
+            Why Kindred
           </p>
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl" style={{ color: "#1C2D0E" }}>
             Built differently, on purpose

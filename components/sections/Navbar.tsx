@@ -30,7 +30,7 @@ export default function Navbar() {
             <Heart className="h-4 w-4 text-white" fill="white" />
           </div>
           <span className="text-[15px] font-bold tracking-tight" style={{ color: "#1C2D0E" }}>
-            Good Friend
+            Kindred
           </span>
         </Link>
 

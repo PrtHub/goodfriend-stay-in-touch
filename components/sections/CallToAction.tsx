@@ -23,7 +23,7 @@ export default function CallToAction() {
           <span style={{ color: "#C5D69C" }}>Start catching up.</span>
         </h2>
         <p className="mx-auto mt-5 max-w-md text-base leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>
-          Most of us lose 80% of close friends by age 30. GoodFriend is the quiet, private tool that helps you fight that statistic, one catch up at a time.
+          Most of us lose 80% of close friends by age 30. Kindred is the quiet, private tool that helps you fight that statistic, one catch up at a time.
         </p>
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <AppStoreButton light />

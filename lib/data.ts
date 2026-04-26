@@ -2,8 +2,8 @@ import { CalendarCheck, Bell, Users, MessageSquare, Cake, Shield, Rocket, Heart,
 
 export const APP_STORE_URL = "https://apps.apple.com/us/app/goodfriend-stay-in-touch/id6758581803";
 export const SUPPORT_EMAIL = "pritamfinds@gmail.com";
-export const PRIVACY_URL = "https://www.notion.so/Privacy-Policy-Good-Friend-abc123";
-export const TERMS_URL = "https://www.notion.so/Terms-of-Service-Good-Friend-abc123";
+export const PRIVACY_URL = "https://www.notion.so/Privacy-Policy-Kindred-abc123";
+export const TERMS_URL = "https://www.notion.so/Terms-of-Service-Kindred-abc123";
 
 export const features = [
   {
@@ -53,7 +53,7 @@ export const steps = [
   {
     number: "02",
     title: "Get Gentle Nudges",
-    description: "GoodFriend surfaces who needs your attention today. Choose your reminder style, from Gentle to full Accountability mode.",
+    description: "Kindred surfaces who needs your attention today. Choose your reminder style, from Gentle to full Accountability mode.",
   },
   {
     number: "03",
@@ -66,7 +66,7 @@ export const highlights = [
   {
     stat: "80%",
     title: "The Anti-Social Network",
-    description: "No feeds, no likes, no doomscrolling. GoodFriend is a quiet, private space to intentionally manage the relationships that actually matter.",
+    description: "No feeds, no likes, no doomscrolling. Kindred is a quiet, private space to intentionally manage the relationships that actually matter.",
   },
   {
     stat: "0",
@@ -81,7 +81,7 @@ export const highlights = [
   {
     stat: "∞",
     title: "Built for the Long Game",
-    description: "Most of us lose touch with 80% of close friends by age 30. GoodFriend is designed to quietly fight that statistic, one catch up at a time.",
+    description: "Most of us lose touch with 80% of close friends by age 30. Kindred is designed to quietly fight that statistic, one catch up at a time.",
   },
 ];
 
@@ -97,7 +97,7 @@ export type IconKey = keyof typeof iconMap;
 export const targetAudience = [
   {
     title: "Busy Founders & Creators",
-    description: "You care about your friendships but get buried in work. Good Friend keeps you accountable without adding another task.",
+    description: "You care about your friendships but get buried in work. Kindred keeps you accountable without adding another task.",
     icon: "rocket" as IconKey,
   },
   {
@@ -112,7 +112,7 @@ export const targetAudience = [
   },
   {
     title: "People Who Value Privacy",
-    description: "Done with apps that harvest your data. Good Friend respects your privacy. Everything stays on your device.",
+    description: "Done with apps that harvest your data. Kindred respects your privacy. Everything stays on your device.",
     icon: "pen" as IconKey,
   },
 ];
@@ -157,8 +157,8 @@ export const faq = [
     answer: "As many as you want. We recommend focusing on your closest 5 to 20 for the best experience. These are the people who matter most.",
   },
   {
-    question: "Does Good Friend access my contacts?",
-    answer: "Good Friend only accesses contacts you explicitly select during setup. We don't auto-import your entire contact list or sync anything to the cloud.",
+    question: "Does Kindred access my contacts?",
+    answer: "Kindred only accesses contacts you explicitly select during setup. We don't auto-import your entire contact list or sync anything to the cloud.",
   },
   {
     question: "What happens if I delete the app?",
@@ -166,10 +166,10 @@ export const faq = [
   },
   {
     question: "Can I export my data?",
-    answer: "Good Friend stores everything locally on your device. Data export is on our roadmap and coming soon.",
+    answer: "Kindred stores everything locally on your device. Data export is on our roadmap and coming soon.",
   },
   {
     question: "Why no cloud sync?",
-    answer: "We designed Good Friend to be private by default. No accounts, no servers, no tracking. Your friendships are yours alone. That's the whole point.",
+    answer: "We designed Kindred to be private by default. No accounts, no servers, no tracking. Your friendships are yours alone. That's the whole point.",
   },
 ];

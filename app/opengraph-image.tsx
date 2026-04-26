@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { SITE_NAME, SITE_DESCRIPTION } from "@/lib/seo";
 
 export const runtime = "edge";
-export const alt = "Good Friend — Never Forget a Catch Up";
+export const alt = "Kindred — The Private Circle";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
